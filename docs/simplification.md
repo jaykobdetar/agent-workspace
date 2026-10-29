@@ -1,5 +1,10 @@
 # Simplification — September 30, 2026
 
+> Historical source note preserved from the imported project. Its test counts,
+> commit references, CI, publication state, and recovery claims are not current
+> validation. The referenced original history is absent from this repository.
+> See [current status](../STATUS.md) and [provenance](history/README.md).
+
 [Overview](../README.md) · [Design](design.md) · [Status](../STATUS.md)
 
 The owner chose to replace the Qwen experiment and RunPod-management stack with

@@ -8,3 +8,23 @@ node_modules/
 *.key
 *.pem
 .mcp.json
+
+# Build and tool output
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Private runtime state (prefer paths outside this checkout)
+state/
+runs/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.sock
+*.log
+receipt.json
