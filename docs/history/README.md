@@ -1,29 +1,29 @@
-# Project history
+# Source provenance and historical references
 
-The former Auto Interpretability Lab / Probe-MCP implementation is preserved in
-Git at commit `381d4f0b832ca72afa051dec8bf00111e213e642`, immediately before this
-simplification. Its documentation and evidence describe that historical project.
-They are not current setup instructions, active services or spending approval.
+This repository starts with source-only import `b9d48b8` on 2026-10-29 from the
+selected local P0289 project. The import contains source, tests, manifests, and
+technical documentation, not the original Git history, live ledgers, receipts,
+credentials, raw chats, or personal documents. The owner described the work as
+AI-assisted. This records origin, not independent authorship verification.
 
-The active project intentionally removes Qwen experiments and model operations,
-GPU provisioning and stopping, sandbox/arbitrary execution, scientific
-certification, service deployment and image publishing. These are product scope
-changes, not claims that equivalent capabilities exist in Agent Workspace.
+The imported guide names [jaykobdetar/Test-Repo](https://github.com/jaykobdetar/Test-Repo),
+branch `consolidate/project-2026-09-30`, as its historical source. That branch was
+observed at `b3573e2cbdf8b8e1c7457377e179d92653568234` on 2026-10-29.
+No claim is made that its tree is identical to this selected snapshot.
+`agent-workspace` is the standalone clone target and needs no Test-Repo checkout.
 
-To inspect an old file without restoring it:
+The preserved [September simplification record](../simplification.md) refers to
+older commit `381d4f0b832ca72afa051dec8bf00111e213e642`. That object is **not in this
+repository**. Its old `git show`/worktree recovery instructions therefore cannot
+be run here. Access to the separate historical repository and verification of
+that object would be required; historical experiment evidence was not imported
+or revalidated as part of this release review.
 
-```sh
-git show 381d4f0:README.md
-git show 381d4f0:STATUS.md
-```
+The former model experiments, GPU provisioning, execution sandbox, scientific
+certification, deployment, and image publishing are outside the active package.
+Historical test totals and deployment statements are historical claims, not
+current acceptance results. See [current status](../../STATUS.md).
 
-If a separate historical checkout is needed, the following creates a detached
-worktree without changing the active branch:
-
-```sh
-git worktree add --detach ../Test-Repo-history 381d4f0
-```
-
-These commands are reference instructions; historical deployment scripts should
-not be treated as part of the current workflow. See [current status](../../STATUS.md)
-and the [simplification record](../simplification.md).
+The existing MIT license is retained without changing ownership notices. No
+third-party source was added in this release preparation. Optional dependencies
+have their own licenses and are resolved separately through the lockfile.

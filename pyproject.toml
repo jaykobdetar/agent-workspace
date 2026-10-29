@@ -34,3 +34,11 @@ addopts = "-ra"
 [tool.ruff]
 line-length = 120
 target-version = "py313"
+
+[tool.ruff.lint]
+# Keep the release check focused on syntax and undefined/unused names.
+select = ["E4", "E7", "E9", "F"]
+
+[project.urls]
+Repository = "https://github.com/jaykobdetar/agent-workspace"
+Issues = "https://github.com/jaykobdetar/agent-workspace/issues"

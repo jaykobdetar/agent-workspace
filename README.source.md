@@ -4,8 +4,9 @@ Agent Workspace is a lightweight coordination board for agents that do their wor
 through their own tools. Submit a task, claim it, and record a result or failure.
 The workspace keeps task state, ownership and saved results; it does not execute tasks.
 
-Source: [jaykobdetar/Test-Repo](https://github.com/jaykobdetar/Test-Repo).
-The consolidated branch is `consolidate/project-2026-09-30`.
+Current repository: [jaykobdetar/agent-workspace](https://github.com/jaykobdetar/agent-workspace).
+Historical source: Test-Repo, branch `consolidate/project-2026-09-30`.
+That separate history was not imported; see [provenance](docs/history/README.md).
 The Python package remains `probe-core` (`probe_core`), version 0.3.0.
 
 ## Try it locally
@@ -21,8 +22,7 @@ Choose a fresh state path for the demo. It demonstrates agents passing work
 through the board entirely offline, without credentials or external resources.
 The base package uses Python's standard library; the `mcp` extra adds the MCP adapter.
 
-For a new checkout, clone `https://github.com/jaykobdetar/Test-Repo.git` and select
-`consolidate/project-2026-09-30` or a reviewed commit.
+For a new checkout, clone `https://github.com/jaykobdetar/agent-workspace.git`.
 
 ## Connect an agent
 
@@ -72,8 +72,8 @@ Agents and their operators manage all execution, credentials, resources and clea
 
 The former Qwen experiments, model operations, RunPod provisioning and stopping,
 sandbox execution, scientific certification, service installation and image
-publishing have been removed from the active project. Their source remains in
-[Git history](docs/history/README.md).
+publishing have been removed from the active project. The source snapshot records their removal; the referenced historical source
+is separate from this repository. See [provenance](docs/history/README.md).
 
 ## Two reusable examples
 
